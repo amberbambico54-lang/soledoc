@@ -6,7 +6,9 @@ const links = [
   { label: "About", href: "/about" },
   { label: "Foot Health", href: "/foot-health" },
   { label: "Footwear Guides", href: "/footwear-guides" },
-  { label: "Partnerships", href: "#partnerships" },
+  { label: "Blog", href: "/blog" },
+  { label: "Partnerships", href: "/partnerships" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -65,7 +67,7 @@ export default function Navbar() {
         </ul>
 
         <div className="hidden md:flex items-center gap-3">
-          <a href="#contact" className="btn-primary" style={{ padding: "10px 22px", fontSize: "0.85rem" }}>
+          <a href="/contact" className="btn-primary" style={{ padding: "10px 22px", fontSize: "0.85rem" }}>
             Work With Me
           </a>
         </div>
@@ -94,7 +96,7 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
-          <a href="#contact" className="btn-primary text-center">
+          <a href="/contact" className="btn-primary text-center">
             Work With Me
           </a>
         </div>
