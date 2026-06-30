@@ -7,6 +7,7 @@ const navLinks = {
     { label: "Foot Health", href: "/foot-health" },
     { label: "Footwear Guides", href: "/footwear-guides" },
     { label: "Blog", href: "/blog" },
+    { label: "FAQ", href: "/faq" },
   ],
   Categories: [
     { label: "Foot Conditions", href: "/blog/category/foot-health" },
@@ -15,10 +16,10 @@ const navLinks = {
     { label: "News & Trends", href: "/blog/category/news" },
   ],
   Partnerships: [
-    { label: "Work With Me", href: "#partnerships" },
-    { label: "Speaking", href: "#partnerships" },
-    { label: "Media Kit", href: "#partnerships" },
-    { label: "Contact", href: "#partnerships" },
+    { label: "Work With Me", href: "/partnerships" },
+    { label: "Speaking", href: "/partnerships" },
+    { label: "Media Kit", href: "/partnerships" },
+    { label: "Contact", href: "/contact" },
   ],
 };
 
