@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 const links = [
+  { label: "Shop", href: "/shop" },
   { label: "About", href: "/about" },
   { label: "Foot Health", href: "/foot-health" },
   { label: "Footwear Guides", href: "/footwear-guides" },
